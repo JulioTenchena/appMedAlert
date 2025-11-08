@@ -1,4 +1,4 @@
-import 'package:aplicativofinal/views/home_view.dart';
+import 'package:aplicativofinal/views/tela_login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,11 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'MedAlert',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: const HomeView(),
+      home: const TelaLogin(),
     );
   }
 }
